@@ -4,6 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- GOOGLE FONTS -->
   </head>
-  <body></body>
+  <body>
+    <div class="content">
+      <header>
+        <h1>Library</h1>
+        <h2>Track The Books You Read</h2>
+      </header>
+
+      <main>
+        <div class="left-side-main">
+          <form action="script.js" class="form">
+            <div class="form-input">
+              <label for="book-name">Book Name</label>
+              <input
+                class="form-text-input"
+                type="text"
+                id="book-name"
+                placeholder="Your Book Name"
+                required
+              />
+            </div>
+            <div class="form-input">
+              <label for="author">Author</label>
+              <input
+                class="form-text-input"
+                type="text"
+                id="author"
+                placeholder="Author Name"
+                required
+              />
+            </div>
+            <div class="form-input">
+              <label for="page-number">Number Of Pages</label>
+              <input
+                class="form-text-input"
+                type="text"
+                id="page-number"
+                placeholder="Page Number"
+                required
+              />
+            </div>
+            <div class="form-input">
+              <label for="pages-read">Pages Read</label>
+              <input
+                class="form-text-input"
+                type="text"
+                id="pages-read"
+                placeholder="On What Page Are You Currently?"
+                required
+              />
+            </div>
+            <div>
+              <button type="submit" class="submit-btn">Add Book</button>
+            </div>
+          </form>
+        </div>
+        <div class="right-side-main"></div>
+      </main>
+      <footer>
+        <a href="https://github.com/NikolaGedovic" class="github-link"
+          >Nikola Gedovic</a
+        >
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
