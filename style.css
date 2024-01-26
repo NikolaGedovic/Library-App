@@ -116,7 +116,7 @@ main {
   width: 270px;
   background-color: var(--second-bg-color);
   border-radius: .8rem;
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
